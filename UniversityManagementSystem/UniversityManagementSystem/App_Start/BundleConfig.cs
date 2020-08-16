@@ -9,7 +9,7 @@ namespace UniversityManagementSystem
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/plugins/jQuery/jQuery-2.1.4.min.js",
+                        "~/Scripts/jquery-3.5.1.min.js",
                         "~/plugins/jQueryUI/jquery-ui.min.js"
                         ));  //order 1
 
@@ -22,11 +22,11 @@ namespace UniversityManagementSystem
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/bootstrap/js/bootstrap.min.js",
+                     "~/Scripts/bootstrap.min.js",
                      "~/Scripts/raphael-min.js",
                      "~/Scripts/respond.js",
                      "~/plugins/datatables/jquery.dataTables.min.js",
-                      "~/plugins/datatables/dataTables.bootstrap.min.js"));
+                     "~/plugins/datatables/dataTables.bootstrap.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/others").Include(
                     "~/plugins/sparkline/jquery.sparkline.min.js",
@@ -67,7 +67,7 @@ namespace UniversityManagementSystem
 
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/bootstrap/css/bootstrap.min.css",
+                      "~/Content/bootstrap.min.css",
                       "~/plugins/font-awesome/css/font-awesome.min.css",
                       "~/plugins/ionicons/css/ionicons.min.css",
                       "~/plugins/datatables/dataTables.bootstrap.css",
