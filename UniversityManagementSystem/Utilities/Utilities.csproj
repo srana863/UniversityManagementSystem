@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,6 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\AppSession.cs" />
+    <Compile Include="Common\AppSetting.cs" />
+    <Compile Include="Common\CommonMethods.cs" />
+    <Compile Include="Common\CurrentSession.cs" />
+    <Compile Include="Common\DataEncryptionUtilities.cs" />
+    <Compile Include="Common\DbContext.cs" />
+    <Compile Include="Common\Parameter.cs" />
+    <Compile Include="Common\ReturnMessage.cs" />
+    <Compile Include="Common\UserInfoSession.cs" />
+    <Compile Include="Enum\AllEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
