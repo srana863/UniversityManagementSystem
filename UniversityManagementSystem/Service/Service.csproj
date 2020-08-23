@@ -41,15 +41,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\BllCommon.cs" />
+    <Compile Include="Common\IAllInterface.cs" />
     <Compile Include="Common\ICommonBALMethods.cs" />
-    <Compile Include="Interfaces\IAllInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\UserInfoManager.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{70839D81-FDFD-4725-B1A1-24208010F1D9}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Utilities\Utilities.csproj">
       <Project>{BBC2B070-B151-454C-8582-58ADF0244E6F}</Project>
       <Name>Utilities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Company\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

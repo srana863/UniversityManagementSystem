@@ -40,7 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Company\CompanyInfo.cs" />
+    <Compile Include="Company\Designation.cs" />
+    <Compile Include="Company\Employee.cs" />
+    <Compile Include="Company\EmployeeDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\Role.cs" />
+    <Compile Include="Security\RoleWiseScreen.cs" />
+    <Compile Include="Security\Screen.cs" />
+    <Compile Include="Security\ScreenType.cs" />
+    <Compile Include="Security\UserDetails.cs" />
+    <Compile Include="Security\UserInfo.cs" />
+    <Compile Include="Security\UserWiseRole.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModel\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

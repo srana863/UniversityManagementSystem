@@ -10,10 +10,8 @@ namespace Repository.Common
     {
         int Create(TEntity model);
         int Update(TEntity model);
-        int Delete(int id, string identityCode = null);
-        int Delete(string id, string identityCode = null);
-        IEnumerable<TEntity> GetAll(string identityCode = null);
-        TEntity Get(int id, string identityCode = null);
-        TEntity Get(string id, string identityCode = null);
+        int Delete(int id, int companyId);
+        IEnumerable<TEntity> GetAll(int companyId);
+        TEntity Get(int id, int companyId);
     }
 }
