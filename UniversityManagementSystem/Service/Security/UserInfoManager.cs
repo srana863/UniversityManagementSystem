@@ -55,7 +55,6 @@ namespace Service.Security
                 try
                 {
                     _dbContext.Open();
-                    var isSaved = 0;
                     return _vmReturn;
                 }
                 catch (Exception e)
