@@ -58,10 +58,6 @@
       <Project>{70839D81-FDFD-4725-B1A1-24208010F1D9}</Project>
       <Name>Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Service\Service.csproj">
-      <Project>{6C4BD6E3-3322-4C19-8D88-DB3DB4673E2F}</Project>
-      <Name>Service</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Utilities\Utilities.csproj">
       <Project>{BBC2B070-B151-454C-8582-58ADF0244E6F}</Project>
       <Name>Utilities</Name>
